@@ -21,3 +21,4 @@ Clone the project
 ## Game Space Tree
 
 ![tree](https://user-images.githubusercontent.com/74948909/169686262-d0cc2c55-9443-463e-9ce8-d86cba023636.png)
+There are total 11 nodes in the tree.
