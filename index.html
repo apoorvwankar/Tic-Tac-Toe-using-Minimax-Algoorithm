@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<link rel=”stylesheet” href=”https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css”>
+		<script src=”https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js”></script>
+		<script src=”https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js”></script>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width,initial-scale=1">
+		<link type="text/css" rel="stylesheet" href="script/style.css" />
+		<script type="text/javascript" src="script/script.js"></script>
+		<title>Tic Tac Toe</title>
+	</head>
+	<body  style="background-color:#6eb2beec;">
+		<header>
+			<p><strong><code>Tic Tac Toe</code></strong></p>
+		</header>
+			<br />
+			<p id="message"></p>
+			<br />
+		<table id="tab-tic-tac-toe" cellspacing="0">
+			<tr><td id="00" onclick="clickedCell(this)"></td><td id="01" onclick="clickedCell(this)"></td><td id="02" onclick="clickedCell(this)"></td></tr>
+			<tr><td id="10" onclick="clickedCell(this)"></td><td id="11" onclick="clickedCell(this)"></td><td id="12" onclick="clickedCell(this)"></td></tr>
+			<tr><td id="20" onclick="clickedCell(this)"></td><td id="21" onclick="clickedCell(this)"></td><td id="22" onclick="clickedCell(this)"></td></tr>
+		</table>
+		<br><br>
+		<input type="button" value="Play" id="bnt-restart" onclick="restartBnt(this)"/>
+		<br />
+		<footer>
+			<p><code>Try to beat the AI</code></a></p>
+		</footer>
+	</body>
+</html>
