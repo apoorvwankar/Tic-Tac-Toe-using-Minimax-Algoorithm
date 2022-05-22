@@ -20,7 +20,7 @@ Clone the project
 
 ## Game Space Tree
 
-This game tree depicts all the possible paths that the game can take from the root board state.Sometimes it is impossible for minimax to compute every possible game state for complex games like Chess.Hence we only compute upto a certain depth and use the evaluation function to calculate the value of the board. Minimax is applied to only to 2 player games.  
+This game tree depicts all the possible paths that the game can take from the root board state.Sometimes it is impossible for minimax to compute every possible game state for complex games like Chess. Hence we only compute upto a certain depth and use the evaluation function to calculate the value of the board. Minimax is applied to only to 2 player games.  
 
 ![tree](https://user-images.githubusercontent.com/74948909/169686262-d0cc2c55-9443-463e-9ce8-d86cba023636.png)
 
